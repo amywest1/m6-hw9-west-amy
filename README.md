@@ -9,3 +9,8 @@ Weather Widget
 
 [How Can I Convert Json Datetime To Normal Date Time Format?](https://www.codeproject.com/Questions/782784/How-Can-I-Convert-Json-Datetime-To-Normal-Date-Tim)
 
+[How to create a link in JavaScript?](https://www.geeksforgeeks.org/how-to-create-a-link-in-javascript/#:~:text=Given%20an%20HTML%20document%20and%20the%20task%20is,%3Ca%3E%20element.%20Append%20%3Ca%3E%20element%20in%20the%20body.)
+
+[Get an OpenWeatherMap API Key and City ID](https://www.dmopress.com/openweathermap-howto/)
+
+[CSS Gradients](https://www.w3schools.com/css/css3_gradients.asp)

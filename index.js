@@ -14,14 +14,15 @@ form.onsubmit = function(e) {
     console.log(data)
     
     var div = document.createElement('div')
-    var h2 = document.createElement('h2')
-    h2.textContent = data.name
-    div.appendChild(h2)  
+    var h1 = document.createElement('h1')
+    h1.textContent = data.name
+    div.appendChild(h1)  
 
     var a = document.createElement('a')
     var link = document.createTextNode("Click to view map")
     a.appendChild(link)
     a.title = "Click to view map"
+    a.target = "_blank"
     a.href = "https://openweathermap.org/city/" + data.id
     div.appendChild(a)
 
@@ -52,10 +53,10 @@ form.onsubmit = function(e) {
 
 
     weatherEl.appendChild(div)
+
+     
     })
-    // .catch(function(err) {
-    // console.log(err)
-    // })
+
 }
 
 

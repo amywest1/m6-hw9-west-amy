@@ -3,17 +3,41 @@
     margin: 0;
     border: 0;
 }
+html {
+    height: 100%;
+}
 
 body {
-    background-color: darkblue;
+    background-image: linear-gradient(to bottom right, #060324, #3652eb);
     color: white;
     font-family: serif;
     text-align: center;
 }
 h1 {
     font-size: 3rem;
-    padding: 3rem;
+    padding: 3rem 3rem .5rem;
 }
+
+a {
+    color: cornflowerblue;
+}
+
+img {
+    display: block;
+    width: 12%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-transform: capitalize;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+h3 {
+    padding-bottom: 1rem;
+}
+
 #location {
     padding: 0.25rem .5rem; 
     font-size: 1rem;
