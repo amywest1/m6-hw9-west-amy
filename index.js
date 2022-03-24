@@ -11,13 +11,20 @@ form.onsubmit = function(e) {
     return response.json()
     })
     .then(function(data) {
-    console.log(data.dt)
+    console.log(data)
     
     var div = document.createElement('div')
     var h2 = document.createElement('h2')
     h2.textContent = data.name
     div.appendChild(h2)  
-    
+
+    var a = document.createElement('a')
+    var link = document.createTextNode("Click to view map")
+    a.appendChild(link)
+    a.title = "Click to view map"
+    a.href = "https://openweathermap.org/city/" + data.id
+    div.appendChild(a)
+
     var iconCode = data.weather[0].icon
     var iconUrl = "https://openweathermap.org/img/wn/" + iconCode + ".png";
     var img = document.createElement('img')
