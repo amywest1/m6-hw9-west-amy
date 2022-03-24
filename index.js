@@ -11,7 +11,7 @@ form.onsubmit = function(e) {
     return response.json()
     })
     .then(function(data) {
-    console.log(data)
+    console.log(data.dt)
     
     var div = document.createElement('div')
     var h2 = document.createElement('h2')
@@ -32,6 +32,18 @@ form.onsubmit = function(e) {
     currentTemp.textContent = "Current: " + data.main.temp + "\xB0 F"
     div.appendChild(currentTemp)
     
+    var feelsLike = document.createElement('h2')
+    feelsLike.textContent = "Feels like: " + data.main.feels_like + "\xB0 F"
+    div.appendChild(feelsLike)
+    
+    var date = new Date(data.dt)
+    console.log(date)
+    var updated = document.createElement('h3')
+    updated.textContent = "Last updated: " + date
+    div.appendChild(updated)
+    
+
+
     weatherEl.appendChild(div)
     })
     // .catch(function(err) {
