@@ -14,3 +14,5 @@ Weather Widget
 [Get an OpenWeatherMap API Key and City ID](https://www.dmopress.com/openweathermap-howto/)
 
 [CSS Gradients](https://www.w3schools.com/css/css3_gradients.asp)
+
+[Errors will happen!](https://www.w3schools.com/js/js_errors.asp) 

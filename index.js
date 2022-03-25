@@ -1,3 +1,4 @@
+var weatherEl = document.getElementById('weather')
 var form = document.querySelector('form')
 var cityInput = document.querySelector('input[type=text]')
 

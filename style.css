@@ -19,23 +19,25 @@ h1 {
 }
 
 a {
+    font-size: 1rem;
     color: cornflowerblue;
 }
 
 img {
     display: block;
-    width: 12%;
+    width: 25%;
     margin: 0 auto;
 }
 
 h2 {
     text-transform: capitalize;
-    font-size: 2rem;
+    font-size: 1.75rem;
     padding-bottom: 2rem;
 }
 
 h3 {
     padding-bottom: 1rem;
+    font-size: 1rem;
 }
 
 #location {
@@ -45,5 +47,20 @@ h3 {
 button {
     padding: .25rem;
     font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    a {
+        font-size: 1.5rem;
+    }
+    img {
+        width: 12%;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
 }
 
