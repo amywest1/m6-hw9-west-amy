@@ -51,6 +51,8 @@ form.onsubmit = function(e) {
     div.appendChild(updated)
     
     weatherEl.appendChild(div)
+    form.reset()
+
 })
 .catch(function(error) {
     console.log(error)
