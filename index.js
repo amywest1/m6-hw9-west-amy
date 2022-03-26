@@ -3,6 +3,7 @@ var form = document.querySelector('form')
 var cityInput = document.querySelector('input[type=text]')
 
 form.onsubmit = function(e) {
+    document.getElementById('weather').innerHTML = ""
     e.preventDefault()
     var formData = new FormData(e.target)
     console.log(cityInput.value)
